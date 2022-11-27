@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    background-color: black;
+
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    padding: 10px 10px 40px;
+    color: lime;
+}
+
+h2 {
+    color: lime;
+    font-weight: bolder;
+
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+
+fieldset {
+    background-color: honeydew;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    margin-right: 400px;
+    margin-left: 400px;
+    border-radius: 25px;
+    border: solid;
+}
+
+button {
+    background-color: honeydew;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 15px;
+    border-radius: 15px;
+
+}
+
+.btn {
+    text-align: center;
+    color: black;
+    background-color: honeydew;
+    margin: 50px 600px 100px;
+    border-radius: 30px;
+
+}
+
+h3 {
+    color: lime;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    margin-top: 25px;
+    margin-bottom: 5px;
+}
+
+.h3-text{
+    display: flex;
+    justify-content: center;
+    font-size: xx-large;
+}
+
+.form {
+
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin-left: 300px;
+    margin-right: 300px;
+
+
+}
+
+label {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+
+
+}
+
+.message{
+    margin-top: 10px;
+    margin-bottom: 30px;
+
+}
+
+.radio{
+
+    margin-bottom: 20px;
+    margin-top: 20px;
+
+
+}
+
+.day{
+    margin-bottom: 25px;
+}
+
+.send{
+    margin-top: 30px;
+}
